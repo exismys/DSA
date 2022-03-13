@@ -16,5 +16,9 @@ public class JavaStrings {
 
         String str = new String(charArray);
         System.out.println(str); // Hello
+
+        // Replace a character in the string
+        str.replace('e', 'a');
+        System.out.println(str);
     }
 }
