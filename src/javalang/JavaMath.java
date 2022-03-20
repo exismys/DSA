@@ -6,5 +6,6 @@ public class JavaMath {
         System.out.println(5 / 2.0); // 2.5
         System.out.println(Math.ceil(2)); // 2.0
         System.out.println(Math.floor(2)); // 2.0
+        System.out.println(Math.max(5, 5)); // 5
     }
 }
