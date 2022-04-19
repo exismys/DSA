@@ -1,4 +1,4 @@
-// CodeChef: https://www.codechef.com/MARCH221C/submit/SUB_XOR
+package general;// CodeChef: https://www.codechef.com/MARCH221C/submit/SUB_XOR
 
 import java.util.ArrayList;
 import java.util.Scanner;
