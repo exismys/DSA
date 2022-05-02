@@ -64,3 +64,9 @@ public class SortTwiceStable {
         Arrays.sort(arr, new NumberComparator());
     }
 }
+
+/**
+ There are two Interfaces I can implement if I wish to custom sort an array of objects:
+ 1. Comparator: We specify a different class which implements this and override its compare method and pass it to sort method as second argument.
+ 2. Comparable: The objects itself implement this and override its compareTo method.
+ */
