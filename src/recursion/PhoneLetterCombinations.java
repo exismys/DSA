@@ -1,7 +1,8 @@
-package recursion_and_backtracking;
+package recursion;
 
 import java.util.ArrayList;
 
+// Leetcode #17 https://leetcode.com/problems/letter-combinations-of-a-phone-number/
 public class PhoneLetterCombinations {
     private static ArrayList<String> letterCombinations;
     private static String[] digitMap;
@@ -39,7 +40,7 @@ public class PhoneLetterCombinations {
     }
 
     public static void main(String[] args) {
-        for (String str: getLetterCombinations("23")) {
+        for (String str: getLetterCombinations("234")) {
             System.out.print(str + ", ");
         }
     }

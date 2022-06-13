@@ -1,4 +1,4 @@
-package recursion_and_backtracking;
+package recursion;
 
 public class SumOfDigits {
     public static int sum(int num) {

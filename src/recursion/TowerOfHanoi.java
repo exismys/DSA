@@ -1,4 +1,4 @@
-package recursion_and_backtracking;
+package recursion;
 
 public class TowerOfHanoi {
     public static void move(int n, char source, char aux, char dest) {

@@ -1,4 +1,4 @@
-package recursion_and_backtracking;
+package recursion;
 
 public class SubsetSum {
     public static int countSubsetsWithSum(int[] array, int sum, int current) {
@@ -11,6 +11,6 @@ public class SubsetSum {
     }
 
     public static void main(String[] args) {
-        System.out.println(countSubsetsWithSum(new int[] {2, 5, 5, 2, 6}, 10, 0));
+        System.out.println(countSubsetsWithSum(new int[] {2, 5, 5, 2, 6}, 10, 0                                                                                         ));
     }
 }

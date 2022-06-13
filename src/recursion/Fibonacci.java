@@ -1,4 +1,4 @@
-package recursion_and_backtracking;
+package recursion;
 
 public class Fibonacci {
     // 0th: 0 1st: 1, TC: O(2^n)

@@ -1,4 +1,4 @@
-package recursion_and_backtracking;
+package recursion;
 
 public class Palindrome {
     public static boolean isPalindrome(String string, int startIndex, int endIndex) {

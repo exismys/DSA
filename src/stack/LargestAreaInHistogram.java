@@ -7,7 +7,7 @@ public class LargestAreaInHistogram {
         int res = Integer.MIN_VALUE;
         ArrayDeque<Integer> stack = new ArrayDeque<>();
 
-        for (int i = 1; i < arr.length; i++) {
+        for (int i = 0; i < arr.length; i++) {
             while (!stack.isEmpty() && arr[stack.peek()] >= arr[i]) {
                 int cr = stack.peek();
                 stack.pop();
