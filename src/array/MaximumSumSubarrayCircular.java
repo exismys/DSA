@@ -1,6 +1,6 @@
 package array;
 
-public class MaximumSumCircularSubarray {
+public class MaximumSumSubarrayCircular {
     public static void main(String[] args) {
         int[] array = {-5, 8, -1, 6, -10, 4};
         System.out.println(maxSum(array));
